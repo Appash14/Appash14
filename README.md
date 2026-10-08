@@ -21,13 +21,15 @@ Deux versions : une dans le navigateur (three.js) et un portage Unity 6 (C#) com
 
 ![Kepler-9 EVA, la navette devant la station](captures/station-complete.png)
 
-[Jouer (web)](https://kepler-9-eva.vercel.app) · [Jouer (Unity WebGL)](https://kepler-9-eva-unity.vercel.app)
+[Jouer (web)](https://kepler-9-eva.vercel.app) · [Code web](https://github.com/Appash14/kepler-9-eva) · [Jouer (Unity WebGL)](https://kepler-9-eva-unity.vercel.app)
 
 ### Sirius, assistant vocal Android
 Application Android native : je parle, Sirius répond à voix haute. Mot d'éveil « Dis Sirius » détecté sur le téléphone, sans réseau en veille. Les accès au serveur restent chiffrés sur l'appareil.
-Kotlin, Jetpack Compose, Vosk, CI GitHub Actions qui construit l'APK et prend les captures d'écran.
+Kotlin, Jetpack Compose, Vosk, captures d'écran automatiques avec Roborazzi.
 
 <img src="captures/sirius.png" alt="Sirius pendant qu'il parle" width="280">
+
+[Code](https://github.com/Appash14/sirius-android)
 
 ### Cosmogonie
 La naissance d'un système solaire racontée au scroll : 37 images générées par IA défilent sur un canvas.
@@ -45,6 +47,8 @@ Fastify, Next.js, Docker Compose, Caddy, OpenRouter.
 
 ### Atelier Claude Code et Codex
 Le support d'un atelier d'une journée que j'ai donné chez Digitalizers : chaque étape s'ouvre dans la salle quand je donne son code, et tout continue de marcher hors ligne.
+
+[Code](https://github.com/Appash14/workshop-dz)
 
 ## Outils
 
